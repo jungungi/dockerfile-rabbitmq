@@ -7,11 +7,11 @@ To build:
 
 Copy the sources down -
 
-	# docker build -rm -t <username>/rabbitmq:centos6 .
+	# docker build -rm -t rabbitmq:centos6 .
 
 To run:
 
-	# docker run -d -p 5672:5672 -p 15672:15672 <username>/rabbitmq:centos6
+	# docker run -d -p 5672:5672 -p 15672:15672 rabbitmq:centos6
 
 Confirm the RabbitMQ server started:
 
